@@ -10,7 +10,7 @@ h1 {
   flex-grow: 0;
 }
 
-ul {
+#menu {
   background-color: yellow;
   /*child*/
   flex-grow: 1;
@@ -19,9 +19,16 @@ ul {
   flex-direction: column;
 }
 
-li {
-  background-color: red;
+.menu-item {
   width: 50%;
   /*child*/
   flex-grow: 1;
+}
+
+.menu-item:nth-child(odd) {
+  background-color: lightpink;
+}
+
+.menu-item:nth-child(even) {
+  background-color: aquamarine;
 }

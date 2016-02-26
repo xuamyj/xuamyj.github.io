@@ -1,0 +1,27 @@
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h1 {
+  font-size: 30px;
+  /*child*/
+  flex-grow: 0;
+}
+
+ul {
+  background-color: yellow;
+  /*child*/
+  flex-grow: 1;
+  /*adult*/
+  display: flex;
+  flex-direction: column;
+}
+
+li {
+  background-color: red;
+  width: 50%;
+  /*child*/
+  flex-grow: 1;
+}

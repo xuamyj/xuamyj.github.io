@@ -1,13 +1,57 @@
-.inactive {
-  display: none !important;
+/* orchid: B3819A */
+
+body {
+  display: flex;
+  font-family: 'Lato', sans-serif;
+  font-size: 20px;
+}
+
+nav {
+  width: 250px;
 }
 
 nav div {
-  border: 1px solid black;
-  padding: 3px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  padding: 15px 10px;
+  margin: 8px;
+
+  border: 2px solid #B3819A;
+  background-color: white;
+  color: #B3819A;
+}
+
+nav div:hover {
+  background-color: #B3819A;
+  color: white;
+  cursor: pointer;
+}
+
+nav a {
+  text-decoration: none;
+}
+
+article {
+  flex-grow: 1;
 }
 
 section {
   border: 1px dashed blue;
-  padding: 20px;
+  padding: 15px 20px;
+  margin: 8px;
+}
+
+article h1 {
+  font-size: 32px;
+  padding-bottom: 15px;
+}
+
+article p {
+  font-size: 14px;
+}
+
+.inactive {
+  display: none !important;
 }

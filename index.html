@@ -6,21 +6,63 @@
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/style.css">
 
-    <!--[if IE]>
-        <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
+    <script src="js/home-screen.js" defer></script>
+    <script src="js/projects-screen.js" defer></script>
+    <script src="js/teaching-screen.js" defer></script>
+    <script src="js/resume-screen.js" defer></script>
+    <script src="js/app.js" defer></script>
+    <script src="js/main.js" defer></script>
 </head>
 
-<body id="home">
+<body>
+  <nav>
+    <div id="menu-home">
+       Amy Xu
+    </div>
+    <div id="menu-projects">
+      Projects
+    </div>
+    <div id="menu-teaching">
+      Teaching
+    </div>
+    <div id="menu-resume">
+      Resume
+    </div>
+    <a href="https://github.com/xuamyj"><div>
+      Github [insert new tab icon]
+    </div></a>
+  </nav>
 
-    <h1>Amy Xu</h1>
+  <section id="home">
+    <h1>
+      Amy Xu
+    </h1>
+    <div>
+      <p>
+        [Insert brief paragraph or something]
+      </p>
+    </div>
+  </section>
 
-    <ul id="menu">
-        <li class="menu-item"><a href="/">Projects</a></li>
-        <li class="menu-item"><a href="/">Resume</a></li>
-        <li class="menu-item"><a href="/">Github</a></li>
-        <li class="menu-item"><a href="/">Info</a></li>
-    </ul>
+  <section id="projects">
+    <h1>
+      Projects
+    </h1>
+    <div class="list"></div>
+  </section>
 
+  <section id="teaching">
+    <h1>
+      Teaching
+    </h1>
+    <div class="list"></div>
+  </section>
+
+  <section id="resume">
+    <h1>
+      Resume
+    </h1>
+    <div></div>
+  </section>
 </body>
 </html>

@@ -1,34 +1,13 @@
-body {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+.inactive {
+  display: none !important;
 }
 
-h1 {
-  font-size: 30px;
-  /*child*/
-  flex-grow: 0;
+nav div {
+  border: 1px solid black;
+  padding: 3px;
 }
 
-#menu {
-  background-color: yellow;
-  /*child*/
-  flex-grow: 1;
-  /*adult*/
-  display: flex;
-  flex-direction: column;
-}
-
-.menu-item {
-  width: 50%;
-  /*child*/
-  flex-grow: 1;
-}
-
-.menu-item:nth-child(odd) {
-  background-color: lightpink;
-}
-
-.menu-item:nth-child(even) {
-  background-color: aquamarine;
+section {
+  border: 1px dashed blue;
+  padding: 20px;
 }
